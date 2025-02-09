@@ -1,13 +1,15 @@
-package com.engineeringdigest.corejava.animals;
-
+package com.engineeringdigest.corejava.test;
 
 public class Test {
     
     public static void main(String[] args){
-        Cat cat = new Cat();
-        cat.name = "yash";
-        System.out.println(cat.name);
-        
+       Student student = new Student();
+       student.deposit(-10);
+       student.withdraw(-10);
+       student.deposit(100);
+       student.withdraw(10);
+       System.out.println(student.getBalance());
+       
     }
     //signatures -> method name and parameters
     //method overloading -> name same but parameters different
@@ -32,10 +34,7 @@ public class Test {
     //     return a + b + c;
     // }
 
-    public static void upper(Cat cat){
-        cat.name = cat.name.toUpperCase();
-        
-    }
+
 
     public static int sum(int ...a){
         int sum = 0;
