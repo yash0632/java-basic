@@ -3,14 +3,14 @@ package com.engineeringdigest.corejava.test;
 public class Student {
     
     String name;
-    int rollnumber;
+    int rollNumber;
     private int age;
     double amount;
     
-    public static void main2(String[] args){
-        //local variable
-        String name;
-
+    public Student(String name,int rollNumber,int age){
+        this.age = age;
+        this.name = name;
+        this.rollNumber = rollNumber;
         
     }
 
@@ -47,5 +47,11 @@ public class Student {
 
     public double getBalance(){
         return this.amount ;
+    }
+    public void setName(String name){
+        this.name = name;
+    }
+    public String getName(){
+        return this.name;
     }
 }
