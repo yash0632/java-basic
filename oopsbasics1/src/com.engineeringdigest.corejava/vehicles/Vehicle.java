@@ -1,4 +1,9 @@
 package com.engineeringdigest.corejava.vehicles;
 
-public class Vehicle {
+public abstract class Vehicle {
+    int speed;
+
+    public abstract void accelerate(int val);
+
+    public abstract void decelerate(int val);
 }

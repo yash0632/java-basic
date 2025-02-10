@@ -11,11 +11,17 @@ public class Animal {
         System.out.println("this animal eats food");
     }
 
+
     public void sayHello(){
-        System.out.println("");
+        System.out.println("...");
     }
 
     public void setAge(int age){
         this.age = age;
+    }
+
+
+    public void makeNoise(){
+        System.out.println("....");
     }
 }
