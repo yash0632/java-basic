@@ -3,7 +3,7 @@ package com.engineeringdigest.corejava.accessmodifiers.zoo;
 public class Dog extends Animal{
 
     public Dog(String name){
-        super(name,"Dhenchu");
+
         System.out.println("Dog Constructor Created!");
     }
 
