@@ -60,4 +60,9 @@ public class Test {
 //super -> it is a function which point to a parent of a child class and can call its method and constructor
 
 
+//Class -> Blueprint of an object
+//Interfaces -> Blueprint of a class
+
+//interfaces -> abstract methods and static constants
+//inheritance -> used for multiple inheritance and abstraction
 

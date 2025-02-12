@@ -1,7 +1,7 @@
 package com.engineeringdigest.corejava.multipleinheritance;
 
-public class Camera {
-    public void clickPhotos(){
+public interface Camera {
+    public default void clickPhotos(){
         System.out.println("kheeching...");
     }
 }

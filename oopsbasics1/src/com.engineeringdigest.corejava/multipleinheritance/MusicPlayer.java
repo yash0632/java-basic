@@ -1,7 +1,7 @@
 package com.engineeringdigest.corejava.multipleinheritance;
 
-public class MusicPlayer {
-    public void playMusic(){
+public interface MusicPlayer {
+    public default void playMusic(){
         System.out.println("Playing...");
     }
 }
