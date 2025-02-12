@@ -1,5 +1,6 @@
 package com.engineeringdigest.corejava;
 
+import java.util.List;
 import java.util.logging.Logger;
 import java.util.logging.Level;
 
@@ -16,6 +17,14 @@ public class Test {
 
     public <T> T methofName(T[] parameter){
         return parameter[0];
+    }
+
+    public double sum(List<? extends Number> arr){
+        double sum = 0;
+        for(Number val : arr){
+            sum += val.doubleValue();
+        }
+        return sum;
     }
 }
 
