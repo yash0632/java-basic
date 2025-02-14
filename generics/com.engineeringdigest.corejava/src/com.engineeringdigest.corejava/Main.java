@@ -30,12 +30,16 @@ public class Main {
         //Pair<String,Integer> pair = new Pair<>("yash",10);
 
         //Box<Integer> box = new Box<>();
+        Box<String> stringBox = new Box<>();
+        stringBox.setValue("hello");
+        String value = stringBox.getValue();
+
 
     }
 }
 //Generics gives type safety at compile time
 
-
+//Type Erasure -> After type checking compiler delete info about generics
 class ClassName<T>{
     //Class body
 }

@@ -1,5 +1,6 @@
 package com.engineeringdigest.corejava;
 
+import java.util.Arrays;
 import java.util.List;
 import java.util.logging.Logger;
 import java.util.logging.Level;
@@ -11,6 +12,9 @@ public class Test {
     public static void main(String[] args){
         Test test = new Test();
         Integer[] intArray = {1,2,3,5};
+        List<? super Integer> numbers = Arrays.asList(1,2,3);
+        numbers.add(20);
+
         System.out.println(test.methofName(intArray));
 
     }
